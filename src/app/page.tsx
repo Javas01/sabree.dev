@@ -7,6 +7,7 @@ import { useState } from "react";
 import { devStuff } from "./constants/devStuff";
 import { Filters } from "./types/FiltersEnum";
 import { FAQFab } from "@/components/FAQFab";
+import { ChatBot } from "@/components/ChatBot";
 
 export default function Home() {
   const [filter, setFilter] = useState<Filters | null>(null);
@@ -114,6 +115,7 @@ export default function Home() {
             }
           })}
         <FAQFab />
+        <ChatBot />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
