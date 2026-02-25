@@ -1,5 +1,6 @@
 import Ummah from "../../public/assets/ummah2.webp";
 import PNF from "../../public/assets/pnf.png";
+import ATT from "../../public/assets/att.png";
 import SS from "../../public/assets/ss.png";
 import { Filters } from "../types/FiltersEnum";
 import { DevStuff } from "../types/DevStuffType";
@@ -45,6 +46,17 @@ export const devStuff: DevStuff[] = [
     date: new Date("2022-09-01")
   },
   {
+    title: "AT&T",
+    description:
+      "lead development of the flagship AT&T app used by millions worldwide",
+    src: ATT,
+    href: "https://apps.apple.com/us/app/myat-t/id309172177myAT&T",
+    component: "Image",
+    filter: Filters.WORK,
+    sort: 4,
+    date: new Date("2025-07-21")
+  },
+  {
     title: "ParkNFly",
     description: "Airport parking app used nationwide by millions",
     src: PNF,
@@ -74,16 +86,5 @@ export const devStuff: DevStuff[] = [
     filter: Filters.WORK,
     sort: 6,
     date: new Date("2024-10-01")
-  },
-  {
-    title: "The Floor (yes, from the gameshow)",
-    description: "A picture game to test your knowledge of trivia",
-    src: "https://thefloor.games/",
-    component: "iframe",
-    filter: Filters.PROJECTS,
-    sort: 8,
-    date: new Date("2024-11-27")
   }
-  // TODO: add Rower
-  // TODO: add volunteer work at school
 ];
