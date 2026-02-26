@@ -110,6 +110,16 @@ export const devStuff: DevStuff[] = [
     isYoutube: true
   },
   {
+    title: "Arabic Grammar App PoC",
+    description: "Created an Arabic grammar app for students",
+    src: "https://arabic-poc.vercel.app/",
+    component: "iframe",
+    filter: Filters.CONTRACT,
+    sort: 15,
+    date: new Date("2025-03-01"),
+    isYoutube: true
+  },
+  {
     title: "ShowSeeker",
     description:
       "End to end, cloud-based advertising order management platform",
