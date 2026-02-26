@@ -116,8 +116,7 @@ export const devStuff: DevStuff[] = [
     component: "iframe",
     filter: Filters.CONTRACT,
     sort: 15,
-    date: new Date("2025-03-01"),
-    isYoutube: true
+    date: new Date("2025-03-01")
   },
   {
     title: "ShowSeeker",
