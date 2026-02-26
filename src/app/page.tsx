@@ -8,6 +8,9 @@ import { devStuff } from "./constants/devStuff";
 import { Filters } from "./types/FiltersEnum";
 import { FAQFab } from "@/components/FAQFab";
 import { ChatBot } from "@/components/ChatBot";
+import Discord from "../public/assets/discord.png";
+import Youtube from "../public/assets/youtube.png";
+import Github from "../public/assets/github.png";
 
 export default function Home() {
   const [filter, setFilter] = useState<Filters | null>(null);
@@ -124,8 +127,8 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
+            src={Github}
+            alt="Github icon"
             width={16}
             height={16}
           />
@@ -139,8 +142,8 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
+            src={Discord}
+            alt="Discord icon"
             width={16}
             height={16}
           />
@@ -154,8 +157,8 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
+            src={Youtube}
+            alt="Youtube icon"
             width={16}
             height={16}
           />
