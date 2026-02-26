@@ -1,6 +1,6 @@
 import Ummah from "../../public/assets/ummah2.webp";
 import PNF from "../../public/assets/pnf.png";
-import ATT from "../../public/assets/att.png";
+import ATT from "../../public/assets/attApp.webp";
 import SS from "../../public/assets/ss.png";
 import { Filters } from "../types/FiltersEnum";
 import { DevStuff } from "../types/DevStuffType";
@@ -48,7 +48,7 @@ export const devStuff: DevStuff[] = [
   {
     title: "AT&T",
     description:
-      "lead development of the flagship AT&T app used by millions worldwide",
+      "Lead Full-Stack Developer for the flagship AT&T app used by millions worldwide",
     src: ATT,
     href: "https://apps.apple.com/us/app/myat-t/id309172177myAT&T",
     component: "Image",
