@@ -8,6 +8,17 @@ import { DevStuff } from "../types/DevStuffType";
 
 export const devStuff: DevStuff[] = [
   {
+    title: "Creating a Mega Man Jumping Game",
+    description:
+      "Tutorial for Creating a Mega man jumping Game with JavaScript",
+    src: "https://www.youtube.com/watch?v=0o3ZMhwabQo",
+    component: "iframe",
+    filter: Filters.TEACHING,
+    sort: 22,
+    date: new Date("2024-09-01"),
+    isYoutube: true
+  },
+  {
     title: "Creating a Pong Game",
     description: "Tutorial for Creating a Pong Game with JavaScript",
     src: "https://www.youtube.com/embed/U4QSE7-ySDo",
@@ -18,8 +29,9 @@ export const devStuff: DevStuff[] = [
     isYoutube: true
   },
   {
-    title: "Creating a TicTacToe Game",
-    description: "Tutorial for Creating a TicTacToe Game with JavaScript",
+    title: "Creating a Rock Paper Scissors Game",
+    description:
+      "Tutorial for Creating a Rock Paper Scissors Game with JavaScript",
     src: "https://www.youtube.com/embed/IOa2FkX4fGI",
     component: "iframe",
     filter: Filters.TEACHING,
