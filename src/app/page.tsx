@@ -15,10 +15,8 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[100px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header className="flex flex-col gap-4 items-center grid-row-1">
-        <h1 className="text-4xl font-bold">Unhired.dev</h1>
-        <p className="text-lg text-center">
-          Jawwaad Sabree - Unhired Developer
-        </p>
+        <h1 className="text-4xl font-bold">Sabree.dev</h1>
+        <p className="text-lg text-center">Jawwaad Sabree - Developer</p>
         <div className="flex flex-row">
           <ToggleGroup
             type="single"
@@ -58,10 +56,10 @@ export default function Home() {
               stuff.component === "Image"
                 ? stuff.href
                 : stuff.isYoutube
-                ? `https://www.youtube.com/watch?v=${
-                    stuff.src.split("/embed/")[1]
-                  }`
-                : stuff.src;
+                  ? `https://www.youtube.com/watch?v=${
+                      stuff.src.split("/embed/")[1]
+                    }`
+                  : stuff.src;
 
             switch (component) {
               case "iframe":
