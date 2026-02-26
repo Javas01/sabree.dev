@@ -1,4 +1,5 @@
 import Ummah from "../../public/assets/ummah2.webp";
+import Steph from "../../public/assets/steph.webp";
 import PNF from "../../public/assets/pnf.png";
 import ATT from "../../public/assets/attApp.webp";
 import SS from "../../public/assets/ss.png";
@@ -44,6 +45,16 @@ export const devStuff: DevStuff[] = [
     filter: Filters.PROJECTS,
     sort: 3,
     date: new Date("2022-09-01")
+  },
+  {
+    title: "Steph Curry AI Model",
+    description: "A points predictiong model for Steph Curry",
+    src: Steph,
+    href: "https://www.chefcurry.ai/",
+    component: "Image",
+    filter: Filters.PROJECTS,
+    sort: 3,
+    date: new Date("2025-02-01")
   },
   {
     title: "AT&T",
