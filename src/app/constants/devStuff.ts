@@ -50,10 +50,10 @@ export const devStuff: DevStuff[] = [
     description:
       "Lead Full-Stack Developer for the flagship AT&T app used by millions worldwide",
     src: ATT,
-    href: "https://apps.apple.com/us/app/myat-t/id309172177myAT&T",
+    href: "https://apps.apple.com/us/app/myat-t/id309172177",
     component: "Image",
     filter: Filters.WORK,
-    sort: 4,
+    sort: 0,
     date: new Date("2025-07-21")
   },
   {
