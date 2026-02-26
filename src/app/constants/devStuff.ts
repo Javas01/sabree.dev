@@ -11,10 +11,20 @@ export const devStuff: DevStuff[] = [
     title: "Creating a Mega Man Jumping Game",
     description:
       "Tutorial for Creating a Mega man jumping Game with JavaScript",
-    src: "https://www.youtube.com/watch?v=0o3ZMhwabQo",
+    src: "https://www.youtube.com/embed/0o3ZMhwabQo",
     component: "iframe",
     filter: Filters.TEACHING,
     sort: 22,
+    date: new Date("2024-09-01"),
+    isYoutube: true
+  },
+  {
+    title: "Creating an envelope animation",
+    description: "Tutorial for Creating an envelope animation with JavaScript",
+    src: "https://www.youtube.com/embed/QgatnFtJAK4",
+    component: "iframe",
+    filter: Filters.TEACHING,
+    sort: 20,
     date: new Date("2024-09-01"),
     isYoutube: true
   },
